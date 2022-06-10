@@ -1,0 +1,18 @@
+<div class="login">
+    <div class="login_container">
+        <img routerLink="/" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" class="login_logo" alt="">
+        <div class="login_form">
+            <h1>Sign-in</h1>
+            <form *ngIf="LoginForm"[formGroup]="LoginForm">
+                <h5>Email</h5>
+                <input type="email" class="com" formControlName='email'>
+                <h5>password</h5>
+                <input type="password" class="com" name="" id="" formControlName='password'>
+                <button class="login_signin_button" (click)="signin()">Sign In</button>
+                <p class="login_terms">By continuing , you agree to Amazon's conditions of use and privacy notice</p>
+                <button class="login_create_button" (click)="createAccount()">Create Amazon account</button>
+            </form>
+        </div>
+    </div>
+
+</div>

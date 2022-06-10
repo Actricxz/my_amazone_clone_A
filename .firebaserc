@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "myclone-aa0eb": {
+      "hosting": {
+        "my-amazon-clone": [
+          "myclone-aa0eb"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "myclone-aa0eb"
+  }
+}
